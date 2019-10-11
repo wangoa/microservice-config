@@ -1,7 +1,6 @@
 spring:
   profiles:
     active:
-    - dev
 ---
 spring:
   profiles: dev #dev表示开发环境
