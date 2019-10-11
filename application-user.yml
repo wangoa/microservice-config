@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #dev表示开发环境
+  application:
+    name: MICROSERVICE-USER-DEV
+---
+spring:
+  profiles: test #test表示测试环境
+  application:
+    name: MICROSERVICE-USER-TEST
+    
