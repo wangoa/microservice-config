@@ -2,11 +2,15 @@ spring:
   profiles:
     active:
 ---
+server:
+  port: 3355
 spring:
   profiles: dev #dev表示开发环境
   application:
     name: MICROSERVICE-USER-DEV
 ---
+server:
+  port: 3355
 spring:
   profiles: test #test表示测试环境
   application:
